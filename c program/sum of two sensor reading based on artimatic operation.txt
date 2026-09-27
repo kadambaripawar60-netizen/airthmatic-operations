@@ -1,0 +1,12 @@
+#include <stdio.h>
+void main()
+{
+int sensor1,sensor2,sum;
+printf("reading the value sensor1:");
+scanf("%d",&sensor1);
+printf("reading the value sensor2:");
+scanf("%d",&sensor2);
+sum=sensor1+sensor2;
+printf("addition=%d",sensor1+sensor2);
+}
+
